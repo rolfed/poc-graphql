@@ -4,6 +4,8 @@
   "description": "Learn GraphQL",
   "main": "index.js",
   "scripts": {
+    "dev": "graphpack",
+    "build": "graphpack build",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -18,5 +20,8 @@
   "bugs": {
     "url": "https://github.com/rolfed/poc-graphql/issues"
   },
-  "homepage": "https://github.com/rolfed/poc-graphql#readme"
+  "homepage": "https://github.com/rolfed/poc-graphql#readme",
+  "devDependencies": {
+    "graphpack": "^1.0.9"
+  }
 }
